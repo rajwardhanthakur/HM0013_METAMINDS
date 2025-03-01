@@ -27,7 +27,7 @@ Your mental health data is sensitive, and we take that seriously. **MANOSWASTHYA
 - Authentication: OAuth, JWT
 - Hosting & Deployment: AWS / Firebase / Vercel
 
-## 📌 How to Set Up
+## How to Set Up
 1. Clone the repository:
    ```bash
    git clone https://github.com/rajwardhanthakur/MANOSWASTHYA.git
