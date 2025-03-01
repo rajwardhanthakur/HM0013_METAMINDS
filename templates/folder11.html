@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manoswasthya - Mental Health Solutions</title>
     <link rel="stylesheet" href="./static/folder11.css">
+    <link rel="stylesheet" href="./static/folder11chatbox.css">
 </head>
 <body>
     <header>
@@ -171,124 +172,20 @@
     <div class="chat-body" id="chatBody">
         <div class="bot-message">Hello! How can I help you?</div>
     </div>
-    <div class="chat-footer">
+    <form class="chat-footer">
         <input type="text" id="userInput" placeholder="Type a message...">
         <button onclick="sendMessage()">Send</button>
-    </div>
+    </form>
 </div>
-
-<!-- Chatbot CSS -->
-<style>
-    /* Chatbot Button */
-    #chatbotToggle {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 50px;
-        cursor: pointer;
-        font-size: 16px;
-    }
-
-    /* Chatbot Container */
-    .chatbot-container {
-        position: fixed;
-        bottom: 100px;
-        right: 20px;
-        width: 500px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        display: none;
-        flex-direction: column;
-        overflow: hidden;
-    }
-
-    /* Header */
-    .chat-header {
-        background: #007bff;
-        color: white;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .chat-header button {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    /* Chat Body */
-    .chat-body {
-        height: 480px;
-        overflow-y: auto;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .bot-message, .user-message {
-        padding: 8px;
-        border-radius: 5px;
-        margin: 5px 0;
-        max-width: 80%;
-    }
-
-    .bot-message {
-        background: #e0e0e0;
-        align-self: flex-start;
-    }
-
-    .user-message {
-        background: #007bff;
-        color: white;
-        align-self: flex-end;
-    }
-
-    /* Footer */
-    .chat-footer {
-        display: flex;
-        padding: 10px;
-        border-top: 1px solid #ddd;
-    }
-
-    .chat-footer input {
-        flex: 1;
-        padding: 8px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-
-    .chat-footer button {
-        background: #007bff;
-        color: white;
-        border: none;
-        padding: 8px 12px;
-        cursor: pointer;
-        border-radius: 5px;
-        margin-left: 5px;
-    }
-
-    .chat-footer button:hover {
-        background: #0056b3;
-    }
-</style>
 
 <!-- Chatbot JavaScript (Only for UI toggle) -->
 <script>
     document.getElementById("chatbotToggle").addEventListener("click", function() {
-        document.getElementById("chatbot").style.display = "flex";
+    document.getElementById("chatbot").style.display = "flex"
     });
 
     document.getElementById("closeChatbot").addEventListener("click", function() {
-        document.getElementById("chatbot").style.display = "none";
+    document.getElementById("chatbot").style.display = "none"
     });
 </script>
 <script>
