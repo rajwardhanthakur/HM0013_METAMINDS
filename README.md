@@ -20,35 +20,12 @@ Your mental health data is sensitive, and we take that seriously. **MANOSWASTHYA
 - Secure storage of all user information.
 
 ## Tech Stack
-- Frontend: React.js / Next.js
+- Frontend: React.js 
 - Backend: Node.js / Express.js
 - Database: MongoDB / PostgreSQL
 - AI/ML: Python (TensorFlow, OpenCV, NLP Libraries)
 - Authentication: OAuth, JWT
 - Hosting & Deployment: AWS / Firebase / Vercel
-
-## How to Set Up
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rajwardhanthakur/MANOSWASTHYA.git
-   ```
-2. Move into the project folder:
-   ```bash
-   cd MANOSWASTHYA
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the project:
-   ```bash
-   npm start
-   ```
-5. Deploy (if needed):
-   ```bash
-   vercel deploy
-   ```
-6. Open your browser and visit `http://localhost:3000/` or your deployment link.
 
 ## Future Scope
 We're just getting started! Here’s what’s next for MANOSWASTHYA:
